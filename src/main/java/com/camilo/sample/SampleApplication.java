@@ -16,7 +16,7 @@ public class SampleApplication {
 	public static class HelloWorldController {
 		@GetMapping("/")
 		public String helloWorld() {
-			return "hello world";
+			return "If the pipeline works as desired, then this message should show up";
 		}
 	}
 
