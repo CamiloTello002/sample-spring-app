@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Sample application
+server:
+  port: 7070
