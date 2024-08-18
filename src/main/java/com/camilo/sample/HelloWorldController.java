@@ -3,13 +3,10 @@ package com.camilo.sample;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-// this will be a comment that comes from the main branch
-// there are many things that you can do right here at this moment
-// and I like rest controllers because they do a pretty good job!
+// this thing that you can see here is a rest controller, which
+// means that it will handle http requests. I love this method
 @RestController
 public class HelloWorldController {
-
-    // this is a handler method
     @GetMapping(path={"/hello", "/what"})
     public String helloWorld() {
         return "Hello world!";
